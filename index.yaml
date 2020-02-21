@@ -1,13 +1,15 @@
 apiVersion: v1
 entries:
-  helm-chart-test:
+  rook-ceph:
   - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-02-21T18:56:29.464746+08:00"
-    description: A Helm chart for Kubernetes
-    digest: 7b380103c34fb87964ec0fb732dd822f073db227577a474dedca52af906281c3
-    name: helm-chart-test
+    created: "2020-02-21T23:52:02.887865+08:00"
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: bcb4320662c7c28d0603e26dd390d1a292f16c2abba90d366be7587b53c380ef
+    icon: https://rook.io/images/logos/rook/rook-logo-color-on-transparent.png
+    name: rook-ceph
+    sources:
+    - https://github.com/rook/rook
     urls:
-    - https://kentwelcome.github.io/helm-chart/helm-chart-test-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-02-21T18:56:29.460381+08:00"
+    - https://kentwelcome.github.io/helm-chart/rook-ceph-v0.9.1-patch.tgz
+    version: v0.9.1-patch
+generated: "2020-02-21T23:52:02.887359+08:00"
